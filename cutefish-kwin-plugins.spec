@@ -8,6 +8,10 @@ License:        GPL-3.0-or-later
 Group:          System/GUI/Other
 URL:            https://github.com/cutefishos/kwin-plugins
 Source:         https://github.com/cutefishos/kwin-plugins/archive/refs/tags/%{version}/%{oname}-%{version}.tar.gz
+
+# Upstream patch to fix build with kwin 5.23+
+Patch0:         https://patch-diff.githubusercontent.com/raw/cutefishos/kwin-plugins/pull/10.patch
+
 BuildRequires:  cmake
 BuildRequires:  cmake(KDecoration2)
 BuildRequires:  cmake(KF5Config)
