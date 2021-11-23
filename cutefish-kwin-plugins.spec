@@ -59,9 +59,5 @@ Cutefish Desktop KWin Plugins.
 %{_datadir}/kwin/scripts/cutefishlauncher/
 %dir %{_datadir}/kwin/tabbox
 %{_datadir}/kwin/tabbox/cutefish_thumbnail/
-#dir #{_libqt5_plugindir}/kwin
-#dir #{_libqt5_plugindir}/kwin/effects
-#dir #{_libqt5_plugindir}/kwin/effects/plugins
-#{_libqt5_plugindir}/kwin/effects/plugins/libroundedwindow.so
-#dir #{_libqt5_plugindir}/org.kde.kdecoration2
-#{_libqt5_plugindir}/org.kde.kdecoration2/libcutefishdecoration.so
+%{_libdir}/qt5/plugins/kwin/effects/plugins/libroundedwindow.so
+%{_libdir}/qt5/plugins/org.kde.kdecoration2/libcutefishdecoration.so
