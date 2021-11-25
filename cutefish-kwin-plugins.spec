@@ -2,7 +2,7 @@
 
 Name:           cutefish-kwin-plugins
 Version:        0.5
-Release:        1
+Release:        2
 Summary:        Some configurations and plugins of KWin.
 License:        GPL-3.0-or-later
 Group:          System/GUI/Other
@@ -48,7 +48,7 @@ Cutefish Desktop KWin Plugins.
 %license LICENSE
 %doc README.md
 %config(noreplace) %{_sysconfdir}/xdg/kglobalshortcutsrc
-%config(noreplace) %{_sysconfdir}/xdg/kwinrc
+%exclude %{_sysconfdir}/xdg/kwinrc
 %config(noreplace) %{_sysconfdir}/xdg/kwinrulesrc
 %dir %{_datadir}/kwin
 %dir %{_datadir}/kwin/effects
