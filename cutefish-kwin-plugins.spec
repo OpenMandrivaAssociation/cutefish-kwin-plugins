@@ -1,16 +1,13 @@
 %define oname kwin-plugins
 
 Name:           cutefish-kwin-plugins
-Version:        0.5
-Release:        3
+Version:        0.8
+Release:        1
 Summary:        Some configurations and plugins of KWin.
 License:        GPL-3.0-or-later
 Group:          System/GUI/Other
 URL:            https://github.com/cutefishos/kwin-plugins
 Source:         https://github.com/cutefishos/kwin-plugins/archive/refs/tags/%{version}/%{oname}-%{version}.tar.gz
-
-# Upstream patch to fix build with kwin 5.23+
-Patch0:         https://patch-diff.githubusercontent.com/raw/cutefishos/kwin-plugins/pull/10.patch
 
 BuildRequires:  cmake
 BuildRequires:  cmake(KDecoration2)
