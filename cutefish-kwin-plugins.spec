@@ -2,7 +2,7 @@
 
 Name:           cutefish-kwin-plugins
 Version:        0.8
-Release:        3
+Release:        4
 Summary:        Some configurations and plugins of KWin.
 License:        GPL-3.0-or-later
 Group:          System/GUI/Other
